@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaycee Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Information Bar -->
+        <div class="nav1 py-2" style="background-color: #000; color: white;">
+            <div class="container d-flex justify-content-between">
+                <div>
+                    <small>ISO 9001:2015 Certified</small>
+                </div>
+                <div>
+                    <a href="#" class="me-3" style="color: white;"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="me-3" style="color: white;"><i class="bi bi-twitter"></i></a>
+                    <a href="#" style="color: white;"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Logo and Contact Details -->
+        <div class="nav2 py-3 position-relative">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div>
+                    <a href="#"><img src="./assets/img/jaycee.png" alt="Logo" style="height: 80px;"></a>
+                </div>
+                <div class="contact-info d-none d-lg-flex">
+                    <div class="me-4 d-flex align-items-center">
+                        <div class="icon-box bg-light rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px;">
+                            <i class="bi bi-house-door"></i>
+                        </div>
+                        <span class="ms-2">79/2, Dangat Industrial Estate ,<br> Shivane , Pune , Maharashtra</span>
+                    </div>
+                    <div class="me-4 d-flex align-items-center">
+                        <div class="icon-box bg-light rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px;">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <span class="ms-2">sales@jayceetech.in <br> sales@jayceetech.com</span>
+                    </div>
+                    <a href="tel:+918554982251" class="call-btn d-flex align-items-center">
+                        <div class="icon-box bg-light rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px;">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <span class="ms-2">CALL US NOW<br>+91 8554982251</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    
+        <!-- Navbar -->
+        <nav id="main-navbar" class="navbar navbar-expand-lg py-1">
+            <div class="container px-4">
+                <a class="navbar-brand d-lg-none" href="#">
+                    <img src="./assets/img/jaycee.png" alt="Logo" style="height: 40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-3"><a class="nav-link" href="#about">HOME</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#about">ABOUT US</a></li>
+                        <li class="nav-item mx-3 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                                <li><a class="dropdown-item" href="#product1">Product 1</a></li>
+                                <li><a class="dropdown-item" href="#product2">Product 2</a></li>
+                                <li><a class="dropdown-item" href="#product3">Product 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#testimonials">TESTIMONIAL</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#clients">CLIENTS</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#clients">BLOG</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#clients">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section with Carousel -->
+<section class="hero">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="d-flex align-items-center" style="height: 500px; background-image: url('./assets/img/images.webp'); background-size: cover; background-position: center;">
+            <div class="container d-flex justify-content-between align-items-center">
+              <div class="text-content">
+                <h1>Welcome to Jaycee</h1>
+                <p>Your Trusted Partner in Level Sensing Solutions</p>
+              </div>
+              <div class="image-content">
+                <img src="./assets/img/jaycee.png" alt="Product 1" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="d-flex align-items-center" style="height: 500px; background-image: url('./assets/img/images.webp'); background-size: cover; background-position: center;">
+            <div class="container d-flex justify-content-between align-items-center">
+              <div class="text-content">
+                <h1>Innovative Level Sensing</h1>
+                <p>Delivering Precision and Reliability</p>
+              </div>
+              <div class="image-content">
+                <img src="./assets/img/jaycee.png" alt="Product 2" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="d-flex align-items-center" style="height: 500px; background-image: url('./assets/img/images.webp'); background-size: cover; background-position: center;">
+            <div class="container d-flex justify-content-between align-items-center">
+              <div class="text-content">
+                <h1>Advanced Technology</h1>
+                <p>Optimizing Your Industrial Processes</p>
+              </div>
+              <div class="image-content">
+                <img src="./assets/img/jaycee.png" alt="Product 3" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+            </div>
+            <p>Jaycee Technologies Private Limited is an ISO 9001-2008 and CE certified Manufacturer, Exporter and Supplier of Moisture Measurement Meter, Level Switches like Vibrating Fork Level Switch For Solids or liquids,Vibrating Rod Point Level Switch For Solids, Capcitance Position sensor, Conductivity point(s) Level Switch, Rotating Paddle Level Switch.Flow Meters include Electromagnetic Flow Meter, Vortex Flow Meter and Level Transmitters which include Hydrostatic Continuous Level Transmitter, Radar Level Transmitter for contact and non-contact type, Ultrasonic Level Transmitter, Capacitance Fuel/ liquid Level Transmitter, Capacitance Level Transmitter. Our products are application oriented instruments fabricated using best quality material and components like SS, brass, electronic components, Al casings, etc. Owning to durable quality, precise design, and corrosion resistant properties, the products are wide on demand in the cement, power, process industry, mineral-based industry, textile and other industries...</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+   <!-- Products Section -->
+<section id="products" class="py-5 bg-light">
+    <div class="container">
+        <div class="section-title mb-5">
+            <h2>Our Products</h2>
+        </div>
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="./assets/img/jaycee.png" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="product-name">Product 1</h5>
+                        <div class="card-overlay">
+                            <h5 class="card-title">Product 1</h5>
+                            <p class="card-description">Description of Product 1.</p>
+                            <a href="#" class="btn btn-primary mt-2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="./assets/img/jaycee.png" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="product-name">Product 2</h5>
+                        <div class="card-overlay">
+                            <h5 class="card-title">Product 2</h5>
+                            <p class="card-description">Description of Product 2.</p>
+                            <a href="#" class="btn btn-primary mt-2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="./assets/img/jaycee.png" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="product-name">Product 3</h5>
+                        <div class="card-overlay">
+                            <h5 class="card-title">Product 3</h5>
+                            <p class="card-description">Description of Product 3.</p>
+                            <a href="#" class="btn btn-primary mt-2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Team Section -->
+    <section id="testimonial" class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>Testimonial</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-start mb-4">
+                    <img src="./assets/img/jaycee.png" class="img-fluid team-member me-3" style="width: 80px; height: 80px; border-radius: 50%;">
+                    <div>
+                        <h5 class="mb-1">John Doe</h5>
+                        <p class="mb-0">"Vibrating fork level switch impressed me on multiple levels. Your company is truly upstanding and is behind its product 100%. Absolutely wonderful!"</p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-start mb-4">
+                    <img src="./assets/img/jaycee.png" class="img-fluid team-member me-3" style="width: 80px; height: 80px; border-radius: 50%;">
+                    <div>
+                        <h5 class="mb-1">Jane Smith</h5>
+                        <p class="mb-0">"Vibrating fork level switch impressed me on multiple levels. Your company is truly upstanding and is behind its product 100%. Absolutely wonderful!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Clients</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img src="./assets/img/jaycee.png" alt="Team Member 1" class="img-fluid team-member">
+                    
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./assets/img/jaycee.png" alt="Team Member 2" class="img-fluid team-member">
+                    
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./assets/img/jaycee.png" alt="Team Member 3" class="img-fluid team-member">
+                    
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./assets/img/jaycee.png" alt="Team Member 4" class="img-fluid team-member">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2025 Jaycee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbar = document.getElementById("main-navbar");
+            const offset = navbar.offsetTop; 
+    
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > offset) {
+                    navbar.classList.add("fixed");
+                } else {
+                    navbar.classList.remove("fixed");
+                }
+            });
+        });
+    </script>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
