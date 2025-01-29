@@ -55,6 +55,7 @@ body {
 
 .dropdown-menu {
     background-color: #24259A;
+    border-radius: 0;
     
 }
 
@@ -170,6 +171,10 @@ body {
     font-size: 1.3rem;
     color: #24259A;
     margin-top: 10px;
+}
+
+.card-body {
+    border-top: 2px solid #24259A;
 }
 
 .card-overlay {
