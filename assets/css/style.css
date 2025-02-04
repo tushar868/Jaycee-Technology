@@ -243,6 +243,7 @@ body {
 }
 
 .client-member {
+    margin-bottom: 10px;
     border: 2px solid #ddd;
     border-radius: 10px;
     padding: 5px;
@@ -262,10 +263,6 @@ body {
 .carousel-control-prev,
 .carousel-control-next {
     display: none !important;
-}
-
-#allClients {
-    background-color: #f8f9fa;
 }
 
 .client-logo {
@@ -480,6 +477,10 @@ body {
 
 .image-info {
     text-align: justify;
+}
+
+.image-info span {
+    font-weight: bold;
 }
 
 .working-principle .row > div {
