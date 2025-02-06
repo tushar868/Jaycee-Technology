@@ -214,6 +214,7 @@ body {
     color: white;
 }
 .btn:hover {
+    
     border: 1px solid #24259A;
     color: #24259A;
 }
