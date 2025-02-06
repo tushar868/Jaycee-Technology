@@ -1,4 +1,4 @@
-/* Global font */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -76,9 +76,49 @@ body {
     opacity: 1;
   }
 
+/*--------------------------------------------------------------
+  # Section 
+  --------------------------------------------------------------*/
+  .section-title {
+    text-align: start;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #2323A2;
+}
+
+/*--------------------------------------------------------------
+  # Video
+  --------------------------------------------------------------*/
+  .video-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
-/* Header and Navbar */
+/*--------------------------------------------------------------
+  # Header and Navbar
+  --------------------------------------------------------------*/
 .header .nav1 a {
     color: #007bff;
     text-decoration: none;
@@ -141,7 +181,6 @@ body {
     color: #24259A;
 }
 
-/* Contact Info */
 .contact-info {
     display: flex;
     align-items: center;
@@ -167,7 +206,11 @@ body {
     text-decoration: none;
 }
 
-/* Hero Section */
+
+
+/*--------------------------------------------------------------
+  # Hero
+  --------------------------------------------------------------*/
 .hero {
     position: relative;
     top: -24px;
@@ -182,7 +225,6 @@ body {
    
 }
 
-/* Responsive Height for Smaller Screens */
 @media (max-width: 1200px) {
     .hero {
         position: relative;
@@ -214,15 +256,10 @@ body {
 }
 
 
-/* Section Title */
-.section-title {
-    text-align: start;
-    font-weight: bold;
-    margin-bottom: 40px;
-    color: #2323A2;
-}
 
-/* Product Cards */
+/*--------------------------------------------------------------
+  # Product Cards
+  --------------------------------------------------------------*/
 .product-img {
     width: 100%;
     height: 220px;
@@ -292,39 +329,18 @@ body {
     color: #24259A;
 }
 
-/* Video Section */
-.video-section {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
 
-.video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
-.video-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Testimonials */
+/*--------------------------------------------------------------
+  # Testimonials
+  --------------------------------------------------------------*/
 .testimonial img {
     border-radius: 50%;
 }
 
-
+/*--------------------------------------------------------------
+  # Clients
+  --------------------------------------------------------------*/
 .client-member {
     margin-bottom: 10px;
     border: 2px solid #ddd;
@@ -367,9 +383,9 @@ body {
     }
 }
 
-
-
-/* About Section */
+/*--------------------------------------------------------------
+  # About Page
+  --------------------------------------------------------------*/
 
 .about-section {
     padding: 60px 15px; 
@@ -411,8 +427,9 @@ body {
     font-size: 1.2rem; 
 }
 
-
-/* Certificate Section */
+/*--------------------------------------------------------------
+  # Certificate
+  --------------------------------------------------------------*/
 .certificate-section {
     padding: 20px 15px; 
 }
@@ -487,8 +504,9 @@ body {
     }
 }
 
-
-/* Product Page */
+/*--------------------------------------------------------------
+  # Product Page
+  --------------------------------------------------------------*/
 .banner-section {
     top: -24px;
 }
@@ -638,8 +656,9 @@ body {
 }
 
 
-
-/* Footer */
+/*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
 .footer {
     background-color: #333;
     color: white;
@@ -685,7 +704,9 @@ body {
     color: #f1c40f;
 }
 
-/* Media Queries for Responsiveness */
+/*--------------------------------------------------------------
+  # Responsiveness
+  --------------------------------------------------------------*/
 
 /* Tablets (up to 992px) */
 @media (max-width: 992px) {
