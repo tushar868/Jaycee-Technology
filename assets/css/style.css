@@ -204,10 +204,18 @@ body {
 }
 
 .btn {
-    font-size: 1rem;
+    border: 1px solid #24259A;
+    border-radius: 0;
     padding: 10px 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 2px; 
     background-color: #24259A;
-    color: #fff;
+    color: white;
+}
+.btn:hover {
+    border: 1px solid #24259A;
+    color: #24259A;
 }
 
 /* Video Section */
@@ -288,6 +296,7 @@ body {
 
 
 /* About Section */
+
 .about-section {
     padding: 60px 15px; 
 }
